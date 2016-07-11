@@ -1,0 +1,10 @@
+1, 89.99, 100, 0, Textbook, Introduction to Programming Languages, Author A, 7, 123456789A
+2, 59.87, 20, 0, Textbook, Programming Language Concepts, Author B, 2, 123456789B
+3, 59.95, 45, 0, Textbook, The C++ Programming Language, Author C, 3, 123456789C
+4, 72.98, 21, 0, Textbook, Computer Organization and Design, Author D, 8, 123456789D
+5, 179.99, 213, 0, Textbook, Thinking in C++, Author E, 5, 123456789E
+6, 99.99, 13, 0, Textbook, Algorithm Design, Author F, 7, 123456789F
+7, 58.45, 9, 0, Textbook, Data Structure Design, Author G, 1, 123456789G
+8, 12.99, 56, 2, FictionBook, Ficciones, Luis Borges
+9, 26.99, 3, 0, Book, I Am a Strange Loop
+10, 13.99, 8, 0, Magazine, Make, 36

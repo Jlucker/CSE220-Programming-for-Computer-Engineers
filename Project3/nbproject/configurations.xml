@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Arg.h</itemPath>
+      <itemPath>Bmp.h</itemPath>
+      <itemPath>Error.h</itemPath>
+      <itemPath>File.h</itemPath>
+      <itemPath>Image.h</itemPath>
+      <itemPath>Main.h</itemPath>
+      <itemPath>String.h</itemPath>
+      <itemPath>Type.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="images" displayName="images" projectFiles="true">
+        <itemPath>images/2x2.bmp</itemPath>
+        <itemPath>images/corrupted01.bmp</itemPath>
+        <itemPath>images/corrupted02.bmp</itemPath>
+        <itemPath>images/invalid01.bmp</itemPath>
+        <itemPath>images/invalid02.bmp</itemPath>
+        <itemPath>images/invalid03.bmp</itemPath>
+        <itemPath>images/invalid04.bmp</itemPath>
+        <itemPath>images/invalid05.bmp</itemPath>
+        <itemPath>images/invalid06.bmp</itemPath>
+        <itemPath>images/invalid07.bmp</itemPath>
+        <itemPath>images/invalid08.bmp</itemPath>
+        <itemPath>images/invalid09.bmp</itemPath>
+        <itemPath>images/testimg0.bmp</itemPath>
+        <itemPath>images/testimg1.bmp</itemPath>
+      </logicalFolder>
+      <itemPath>ReadMe.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Arg.c</itemPath>
+      <itemPath>Bmp.c</itemPath>
+      <itemPath>Error.c</itemPath>
+      <itemPath>File.c</itemPath>
+      <itemPath>Image.c</itemPath>
+      <itemPath>Main.c</itemPath>
+      <itemPath>String.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>images</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+        <linkerTool>
+          <output>bimpie</output>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Tar</packType>
+        <output>cse220-f13-p03-evans-lucker.tar.bz2</output>
+        <additionalOptions>-vj</additionalOptions>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="Arg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Arg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Bmp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Bmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReadMe.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="String.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="String.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/2x2.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/corrupted01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/corrupted02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid04.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid05.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid06.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid07.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid08.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid09.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/testimg0.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/testimg1.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Arg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Arg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Bmp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Bmp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="File.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReadMe.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="String.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="String.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Type.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/2x2.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/corrupted01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/corrupted02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid01.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid02.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid03.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid04.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid05.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid06.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid07.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid08.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/invalid09.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/testimg0.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="images/testimg1.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
